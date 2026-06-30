@@ -1,0 +1,13 @@
+.git
+.idea
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+*.log
+docker-compose*.yml
+postgres_data/

@@ -1,0 +1,33 @@
+from typing import ClassVar
+from basalam.backbone_orm import ModelSchemaAbstract
+
+
+class ToolSchema(ModelSchemaAbstract):
+    ID: ClassVar[str] = 'id'
+    SLUG: ClassVar[str] = 'slug'
+    NAME: ClassVar[str] = 'name'
+    DESCRIPTION: ClassVar[str] = 'description'
+    PROGRESS_LABEL: ClassVar[str] = 'progress_label'
+    PROGRESS_VISUAL_TYPE: ClassVar[str] = 'progress_visual_type'
+    PROGRESS_VISUAL_VALUE: ClassVar[str] = 'progress_visual_value'
+    TOOL_TYPE: ClassVar[str] = 'tool_type'
+    USER_TYPES: ClassVar[str] = 'user_types'
+    PARAMETERS: ClassVar[str] = 'parameters'
+    REQUIRED_TOOL_IDS: ClassVar[str] = 'required_tool_ids'
+    SHOW_RESULT: ClassVar[str] = 'show_result'
+    ACTION_ONLY_NAME: ClassVar[str] = 'action_only_name'
+    ACTION_ONLY_DESCRIPTION: ClassVar[str] = 'action_only_description'
+    RULE_METHOD: ClassVar[str] = 'rule_method'
+    IS_ACTIVE: ClassVar[str] = 'is_active'
+    IS_PUBLIC: ClassVar[str] = 'is_public'
+    PUBLIC_NAME: ClassVar[str] = 'public_name'
+    AGENT_ID: ClassVar[str] = 'agent_id'
+    API_URL: ClassVar[str] = 'api_url'
+    API_METHOD: ClassVar[str] = 'api_method'
+    API_HEADERS: ClassVar[str] = 'api_headers'
+    API_BODY_TEMPLATE: ClassVar[str] = 'api_body_template'
+    METADATA_JSON: ClassVar[str] = 'metadata_json'
+    CREATED_BY: ClassVar[str] = 'created_by'
+    CREATED_AT: ClassVar[str] = 'created_at'
+    UPDATED_AT: ClassVar[str] = 'updated_at'
+    DELETED_AT: ClassVar[str] = 'deleted_at'
